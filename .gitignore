@@ -1,0 +1,37 @@
+```gitignore
+# Yocto build output
+build/
+downloads/
+sstate-cache/
+tmp/
+work/
+cache/
+
+# Yocto generated files
+*.log
+*.lock
+*.manifest
+*.rootfs.*
+*.wic
+*.wic.bmap
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+```
+# External Yocto layers / upstream repositories
+poky/
+meta-arm/
+meta-openembedded/
+meta-raspberrypi/
+meta-ti/
