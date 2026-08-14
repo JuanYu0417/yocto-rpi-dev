@@ -17,3 +17,4 @@ IMAGE_INSTALL:append = " \
 "
 
 IMAGE_ROOTFS_EXTRA_SPACE = "65536"
+# IMAGE_INSTALL += " libgpiod libgpiod-tools"
